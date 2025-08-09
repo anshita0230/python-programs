@@ -1,0 +1,27 @@
+# 💰 Expense Tracker (Python + JSON + Generators)
+
+A simple **Expense Tracker** built in Python using:
+- **JSON** for data storage  
+- **Generators** for memory-efficient data handling  
+- **File Handling** to save and read expenses
+
+This project lets you **add**, **list**, and **filter** expenses directly from the terminal.
+
+---
+
+## 🚀 Features
+- Add expenses with name, note, and amount
+- Save all data in a `JSON` file
+- List all expenses in a clean format
+- Filter expenses by a minimum amount
+- Uses **Python generators** for efficient data iteration
+
+---
+
+## 🛠️ How It Works
+1. When you add an expense, it is saved in `expense.json`.
+2. The data is loaded whenever you run the program.
+3. Generators (`yield`) are used to read expenses one by one instead of loading all into memory at once.
+4. You can filter expenses by setting a minimum amount.
+
+
